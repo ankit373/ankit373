@@ -36,7 +36,7 @@
   </picture>
 </p>
 
-<p align="center"><sub>↑ that's my contribution graph getting eaten · regenerates every 12h via GitHub Actions</sub></p>
+<p align="center"><sub>contribution graph · regenerated every 12h by a scheduled Action</sub></p>
 
 ---
 
@@ -81,7 +81,7 @@ $ whoami --verbose
 | **470** PRs into repos I don't own | **200** merged into one platform repo alone |
 | **40% / 35% / 27%** cloud cost cut | across Tradomate, Quantiphi, Wipro |
 | **6+ years** · 5 roles · 4 companies | led a team of **5** |
-| on GitHub since **May 2015** | **27** repos of my own |
+| on GitHub since **May 2015** | SOC 2 + HIPAA readiness programs led |
 
 </details>
 
@@ -174,7 +174,7 @@ Backend-agnostic inference server speaking OpenAI over pluggable engines — lla
 
 <br>
 
-I send fixes back to the infrastructure I operate in production. It's the only way I've found to actually learn it.
+If it runs in my production, I read its source — and when it breaks, the fix goes upstream, not into a private fork.
 
 | project | what I fixed |
 |:--|:--|
@@ -199,7 +199,7 @@ I send fixes back to the infrastructure I operate in production. It's the only w
 <tr><td nowrap>2024–25</td><td nowrap><b>Tiger Analytics</b><br><sub>Platform Engineer</sub></td><td>Built the GCP practice from scratch — hired the engineers, wrote the standards, shipped a Terraform accelerator, drove adoption org-wide.</td></tr>
 <tr><td nowrap>2022–24</td><td nowrap><b>Quantiphi</b><br><sub>Senior Platform Eng</sub></td><td>Led 5 engineers on a cloud-agnostic Contact Center AI platform. SOC 2 + HIPAA readiness, DR drills, 35% cost cut on an LLM product.</td></tr>
 <tr><td nowrap>2021–22</td><td nowrap><b>Quantiphi</b><br><sub>Platform Engineer, R&amp;D</sub></td><td>NLP-powered search on GKE via Terraform. GitLab CI + SonarQube, AWS chaos engineering.</td></tr>
-<tr><td nowrap>2019–21</td><td nowrap><b>Wipro</b><br><sub>Cloud Engineer</sub></td><td>Day-two GCP ops and incidents. 27% monthly cost cut, Cloud Armor WAF, and one point-in-time recovery of a truncated CloudSQL database I still tell people about.</td></tr>
+<tr><td nowrap>2019–21</td><td nowrap><b>Wipro</b><br><sub>Cloud Engineer</sub></td><td>Day-two GCP ops and incidents. 27% monthly cost cut, Cloud Armor WAF, and a point-in-time recovery of a truncated CloudSQL database — followed by the RCA and the safeguards that kept it from recurring.</td></tr>
 </table>
 
 </details>
@@ -215,21 +215,17 @@ I send fixes back to the infrastructure I operate in production. It's the only w
 
 B.Tech in **Electronics &amp; Communication**, BVM Anand. Everything I built back then had wires coming out of it:
 
-- 🧠 **[BCI Wheelchair](https://github.com/ankit373/BCI-wheelchair)** — a wheelchair you steer with brain waves
-- 🏠 **[BCI Home Automation](https://github.com/ankit373/BCI-Home-Automation)** — appliances controlled by EEG detection
-- 🌱 **[Greenhouse Climate Controller](https://github.com/ankit373/Greenhouse_Climate_Controller)** — fuzzy-logic actuators for variable output
+- **[BCI Wheelchair](https://github.com/ankit373/BCI-wheelchair)** — EEG-driven wheelchair control
+- **[BCI Home Automation](https://github.com/ankit373/BCI-Home-Automation)** — appliance control from brain-wave detection and analysis
+- **[Greenhouse Climate Controller](https://github.com/ankit373/Greenhouse_Climate_Controller)** — fuzzy-logic control loop driving actuators against variable conditions
 
-Then I taught myself data science in public — [algorithms &amp; data structures](https://github.com/ankit373/DS-A), [data analysis](https://github.com/ankit373/Data-Analysis-Tutorlals), [computational thinking](https://github.com/ankit373/Computational-Thinking-and-Data-Science-Tutorials) — before going all-in on cloud in 2019.
+A detour through [algorithms &amp; data structures](https://github.com/ankit373/DS-A), [data analysis](https://github.com/ankit373/Data-Analysis-Tutorlals) and [computational thinking](https://github.com/ankit373/Computational-Thinking-and-Data-Science-Tutorials) followed — worked in public, notebook by notebook — then cloud full-time from 2019.
 
 <sub>Finalist, Idea Chaupal '18 (IRMA Anand) · Smart India Hackathon 2018, hardware <b>and</b> software · organizer, Gujarat SIH · "Brilliance Personified" in Quantiphi's <i>Inspire</i> · Group of Talent + Avenger awards, H2 2023 · GCP Associate Cloud Engineer · HashiCorp Terraform Associate</sub>
 
 </details>
 
 ---
-
-<p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=transparent&border=true" alt="quote">
-</p>
 
 <p align="center">
   <a href="#top"><img src="https://img.shields.io/badge/▲_back_to_top-00ADD8?style=for-the-badge&labelColor=161b22" alt="back to top"></a>
