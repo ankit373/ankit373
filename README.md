@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&duration=2800&pause=700&color=00ADD8&center=true&vCenter=true&width=760&height=45&lines=Lead+DevOps+%40+Tradomate+%C2%B7+Bengaluru;I+run+Kubernetes+in+production+across+two+regions;I+cut+cloud+bills+by+40%25%2C+then+prove+it+with+dashboards;Now+building+Hydra+%E2%80%94+a+control+plane+for+AI+models;Patches+upstream+to+Loki%2C+Ollama+%26+vLLM" alt="What I do">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&duration=2800&pause=700&color=00ADD8&center=true&vCenter=true&width=760&height=45&lines=Founding+Engineer+%40+Tradomate+%C2%B7+Bengaluru;I+run+Kubernetes+in+production+across+two+regions;I+cut+cloud+bills+by+40%25%2C+then+prove+it+with+dashboards;Now+building+Hydra+%E2%80%94+a+control+plane+for+AI+models;Patches+upstream+to+Loki%2C+Ollama+%26+vLLM" alt="What I do">
 </p>
 
 <p align="center">
@@ -44,7 +44,7 @@
 $ whoami --verbose
 
   ankit373 · Ankit Jha
-  ├─ role      Lead DevOps, Innovation Unit @ Tradomate
+  ├─ role      Founding Engineer @ Tradomate
   ├─ before    Tiger Analytics · Quantiphi ×2 · Wipro
   ├─ does      platform & cloud architecture, production Kubernetes, Go
   ├─ cut       40% off AWS · 35% off an LLM product · 27% at Wipro
@@ -195,7 +195,7 @@ I send fixes back to the infrastructure I operate in production. It's the only w
 <br>
 
 <table>
-<tr><td nowrap><b>2025 →</b></td><td nowrap><b>Tradomate</b><br><sub>Lead DevOps</sub></td><td>Own platform &amp; cloud architecture for a fintech trading platform. Cut AWS 40%, built the observability stack, run EKS across two regions, tuned ClickHouse to millisecond latency.</td></tr>
+<tr><td nowrap><b>2025 →</b></td><td nowrap><b>Tradomate</b><br><sub>Founding Engineer</sub></td><td>Own platform &amp; cloud architecture for a fintech trading platform. Cut AWS 40%, built the observability stack, run EKS across two regions, tuned ClickHouse to millisecond latency.</td></tr>
 <tr><td nowrap>2024–25</td><td nowrap><b>Tiger Analytics</b><br><sub>Platform Engineer</sub></td><td>Built the GCP practice from scratch — hired the engineers, wrote the standards, shipped a Terraform accelerator, drove adoption org-wide.</td></tr>
 <tr><td nowrap>2022–24</td><td nowrap><b>Quantiphi</b><br><sub>Senior Platform Eng</sub></td><td>Led 5 engineers on a cloud-agnostic Contact Center AI platform. SOC 2 + HIPAA readiness, DR drills, 35% cost cut on an LLM product.</td></tr>
 <tr><td nowrap>2021–22</td><td nowrap><b>Quantiphi</b><br><sub>Platform Engineer, R&amp;D</sub></td><td>NLP-powered search on GKE via Terraform. GitLab CI + SonarQube, AWS chaos engineering.</td></tr>
