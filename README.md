@@ -229,7 +229,7 @@ A detour through [algorithms &amp; data structures](https://github.com/ankit373/
 
 <p align="center">
 <!-- quote:start -->
-<i>seeding…</i><br><sub>— the workflow will replace this</sub>
+<i>“Simplicity is prerequisite for reliability.”</i><br><sub>— Edsger W. Dijkstra</sub>
 <!-- quote:end -->
 </p>
 
