@@ -228,6 +228,14 @@ A detour through [algorithms &amp; data structures](https://github.com/ankit373/
 ---
 
 <p align="center">
+<!-- quote:start -->
+<i>seeding…</i><br><sub>— the workflow will replace this</sub>
+<!-- quote:end -->
+</p>
+
+<p align="center"><sub>quote of the day · rotates at midnight IST via GitHub Actions</sub></p>
+
+<p align="center">
   <a href="#top"><img src="https://img.shields.io/badge/▲_back_to_top-00ADD8?style=for-the-badge&labelColor=161b22" alt="back to top"></a>
 </p>
 
