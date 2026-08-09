@@ -22,15 +22,3 @@ jobs:
           config_timezone: Asia/Kolkata
           plugin_calendar: yes
           plugin_calendar_limit: 0
-
-      - name: Notable contributions (orgs I've shipped to)
-        uses: lowlighter/metrics@v3.34
-        with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: ankit373
-          filename: metrics-notable.svg
-          base: ""
-          config_timezone: Asia/Kolkata
-          plugin_notable: yes
-          plugin_notable_repositories: yes
-          plugin_notable_types: commit, pull_request

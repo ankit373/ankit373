@@ -73,7 +73,7 @@ $ whoami --verbose
 </p>
 
 <p align="center">
-  <img width="98%" src="https://raw.githubusercontent.com/ankit373/ankit373/main/github-metrics.svg" alt="isometric commit calendar, languages and commit habits — rendered nightly in this repo's own Actions">
+  <img width="98%" src="https://raw.githubusercontent.com/ankit373/ankit373/main/metrics-calendar.svg" alt="every contribution since 2015 — rendered nightly in this repo's own Actions">
 </p>
 
 | | |
