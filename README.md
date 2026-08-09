@@ -16,7 +16,7 @@
   <a href="https://linkedin.com/in/ankit-jha"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logoColor=white" alt="LinkedIn"></a>
   <a href="mailto:jhaankit373@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
   <a href="https://twitter.com/Ankitjha373"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"></a>
-  <a href="https://github.com/ankit373/hydra"><img src="https://img.shields.io/badge/⬢_Hydra-00ADD8?style=for-the-badge&logoColor=white" alt="Hydra"></a>
+  <a href="https://hydra.uvansa.com"><img src="https://img.shields.io/badge/⬢_Hydra-00ADD8?style=for-the-badge&logoColor=white" alt="Hydra"></a>
 </p>
 
 <p align="center">
@@ -123,9 +123,10 @@ $ whoami --verbose
 <tr>
 <td width="50%" valign="top">
 
-### ⬢ [Hydra](https://github.com/ankit373/hydra)
+### ⬢ [Hydra](https://hydra.uvansa.com)
 
-![stars](https://img.shields.io/github/stars/ankit373/hydra?style=flat-square&color=00ADD8&labelColor=161b22)
+[![site](https://img.shields.io/badge/hydra.uvansa.com-00ADD8?style=flat-square&labelColor=161b22)](https://hydra.uvansa.com)
+[![stars](https://img.shields.io/github/stars/ankit373/hydra?style=flat-square&color=00ADD8&labelColor=161b22)](https://github.com/ankit373/hydra)
 ![go](https://img.shields.io/github/go-mod/go-version/ankit373/hydra?style=flat-square&color=00ADD8&labelColor=161b22)
 ![license](https://img.shields.io/github/license/ankit373/hydra?style=flat-square&color=8B5CF6&labelColor=161b22)
 
