@@ -229,6 +229,8 @@ A detour through [algorithms &amp; data structures](https://github.com/ankit373/
 
 </details>
 
+</details>
+
 ---
 
 <p align="center">
@@ -240,8 +242,6 @@ A detour through [algorithms &amp; data structures](https://github.com/ankit373/
 <p align="center">
   <a href="#top"><img src="https://img.shields.io/badge/▲_back_to_top-00ADD8?style=for-the-badge&labelColor=161b22" alt="back to top"></a>
 </p>
-
-</details>
 
 <p align="center">
   <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:8B5CF6,50:38bdf8,100:00ADD8&height=120&section=footer" alt="">
