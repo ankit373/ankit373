@@ -229,6 +229,10 @@ A detour through [algorithms &amp; data structures](https://github.com/ankit373/
 
 </details>
 
+<p align="center">
+  <a href="#top"><img src="https://img.shields.io/badge/▲_back_to_top-00ADD8?style=for-the-badge&labelColor=161b22" alt="back to top"></a>
+</p>
+
 </details>
 
 ---
@@ -237,10 +241,6 @@ A detour through [algorithms &amp; data structures](https://github.com/ankit373/
 <!-- quote:start -->
 <i>“Simplicity is prerequisite for reliability.”</i><br><sub>— Edsger W. Dijkstra</sub>
 <!-- quote:end -->
-</p>
-
-<p align="center">
-  <a href="#top"><img src="https://img.shields.io/badge/▲_back_to_top-00ADD8?style=for-the-badge&labelColor=161b22" alt="back to top"></a>
 </p>
 
 <p align="center">
