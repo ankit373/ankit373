@@ -22,7 +22,7 @@
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=ankit373&style=flat-square&color=00ADD8&label=profile+views" alt="views">
   <img src="https://img.shields.io/github/followers/ankit373?style=flat-square&color=8B5CF6&labelColor=161b22" alt="followers">
-  <img src="https://img.shields.io/badge/since-2015-00ADD8?style=flat-square&labelColor=161b22" alt="since 2015">
+  <img src="https://img.shields.io/github/stars/ankit373?style=flat-square&color=00ADD8&labelColor=161b22&label=total%20stars" alt="total stars">
   <img src="https://img.shields.io/badge/Bengaluru-IN-8B5CF6?style=flat-square&labelColor=161b22" alt="Bengaluru">
 </p>
 
@@ -37,6 +37,9 @@
 </p>
 
 <p align="center"><sub>contribution graph · regenerated every 12h by a scheduled Action</sub></p>
+
+<details>
+<summary align="center"><kbd>&nbsp;&nbsp;&nbsp;▼&nbsp;&nbsp;&nbsp;show more&nbsp;&nbsp;&nbsp;▼&nbsp;&nbsp;&nbsp;</kbd></summary>
 
 ---
 
@@ -234,11 +237,11 @@ A detour through [algorithms &amp; data structures](https://github.com/ankit373/
 <!-- quote:end -->
 </p>
 
-<p align="center"><sub>quote of the day · rotates at midnight IST via GitHub Actions</sub></p>
-
 <p align="center">
   <a href="#top"><img src="https://img.shields.io/badge/▲_back_to_top-00ADD8?style=for-the-badge&labelColor=161b22" alt="back to top"></a>
 </p>
+
+</details>
 
 <p align="center">
   <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:8B5CF6,50:38bdf8,100:00ADD8&height=120&section=footer" alt="">
