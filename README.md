@@ -72,10 +72,6 @@ $ whoami --verbose
   </picture>
 </p>
 
-<p align="center">
-  <img width="98%" src="https://raw.githubusercontent.com/ankit373/ankit373/main/metrics-calendar.svg" alt="every contribution since 2015 — rendered nightly in this repo's own Actions">
-</p>
-
 | | |
 |:--|:--|
 | **1,377** contributions in 2026 | **296** PRs · **283** issues opened |
