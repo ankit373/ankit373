@@ -26,13 +26,13 @@
   <img src="https://img.shields.io/badge/Bengaluru-IN-8B5CF6?style=flat-square&labelColor=161b22" alt="Bengaluru">
 </p>
 
-<!-- ══════════════════════ SNAKE ══════════════════════ -->
+<!-- ══════════════════════ PACMAN ══════════════════════ -->
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ankit373/ankit373/output/snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ankit373/ankit373/output/snake.svg">
-    <img alt="my contribution graph, being eaten by a snake" src="https://raw.githubusercontent.com/ankit373/ankit373/output/snake.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ankit373/ankit373/output/pacman-contribution-graph-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ankit373/ankit373/output/pacman-contribution-graph.svg">
+    <img alt="Pac-Man eating my contribution graph" src="https://raw.githubusercontent.com/ankit373/ankit373/output/pacman-contribution-graph.svg">
   </picture>
 </p>
 
