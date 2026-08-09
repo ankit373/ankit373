@@ -65,6 +65,14 @@ $ whoami --verbose
 <summary><b><kbd>&nbsp;▼&nbsp;&nbsp;the numbers&nbsp;&nbsp;▼&nbsp;</kbd></b></summary>
 
 <p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ankit373/ankit373/output/profile-night-rainbow.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ankit373/ankit373/output/profile-season-animate.svg">
+    <img alt="3D contribution skyline" width="98%" src="https://raw.githubusercontent.com/ankit373/ankit373/output/profile-season-animate.svg">
+  </picture>
+</p>
+
+<p align="center">
   <img height="165" src="https://github-readme-stats-sigma-five.vercel.app/api?username=ankit373&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=transparent&title_color=00ADD8&icon_color=8B5CF6&text_color=8b949e" alt="stats">
   <img height="165" src="https://streak-stats.demolab.com?user=ankit373&theme=transparent&hide_border=true&border_radius=6&ring=00ADD8&fire=8B5CF6&currStreakLabel=00ADD8&sideLabels=8b949e&dates=6e7681&sideNums=8b949e&currStreakNum=00ADD8" alt="streak">
 </p>
@@ -228,6 +236,16 @@ A detour through [algorithms &amp; data structures](https://github.com/ankit373/
 <sub>Finalist, Idea Chaupal '18 (IRMA Anand) · Smart India Hackathon 2018, hardware <b>and</b> software · organizer, Gujarat SIH · "Brilliance Personified" in Quantiphi's <i>Inspire</i> · Group of Talent + Avenger awards, H2 2023 · GCP Associate Cloud Engineer · HashiCorp Terraform Associate</sub>
 
 </details>
+
+---
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ankit373/ankit373/output/breakout-contribution-graph-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ankit373/ankit373/output/breakout-contribution-graph.svg">
+    <img alt="Breakout, played against my contribution graph" width="98%" src="https://raw.githubusercontent.com/ankit373/ankit373/output/breakout-contribution-graph.svg">
+  </picture>
+</p>
 
 <p align="center">
   <a href="#top"><img src="https://img.shields.io/badge/▲_back_to_top-00ADD8?style=for-the-badge&labelColor=161b22" alt="back to top"></a>
