@@ -12,18 +12,25 @@ jobs:
     permissions:
       contents: write
     steps:
-      - name: Render isocalendar + languages + habits
+      - name: Full-history contribution calendar (2015 → now)
         uses: lowlighter/metrics@v3.34
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           user: ankit373
-          filename: github-metrics.svg
+          filename: metrics-calendar.svg
           base: ""
           config_timezone: Asia/Kolkata
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
-          plugin_languages: yes
-          plugin_languages_limit: 8
-          plugin_habits: yes
-          plugin_habits_charts: yes
-          plugin_habits_days: 14
+          plugin_calendar: yes
+          plugin_calendar_limit: 0
+
+      - name: Notable contributions (orgs I've shipped to)
+        uses: lowlighter/metrics@v3.34
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: ankit373
+          filename: metrics-notable.svg
+          base: ""
+          config_timezone: Asia/Kolkata
+          plugin_notable: yes
+          plugin_notable_repositories: yes
+          plugin_notable_types: commit, pull_request
