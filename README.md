@@ -73,17 +73,7 @@ $ whoami --verbose
 </p>
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats-sigma-five.vercel.app/api?username=ankit373&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=transparent&title_color=00ADD8&icon_color=8B5CF6&text_color=8b949e" alt="stats">
-  <img height="165" src="https://streak-stats.demolab.com?user=ankit373&theme=transparent&hide_border=true&border_radius=6&ring=00ADD8&fire=8B5CF6&currStreakLabel=00ADD8&sideLabels=8b949e&dates=6e7681&sideNums=8b949e&currStreakNum=00ADD8" alt="streak">
-</p>
-
-<p align="center">
-  <img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=ankit373&bg_color=00000000&color=00ADD8&line=8B5CF6&point=ffffff&area=true&area_color=00ADD8&hide_border=true&custom_title=contribution%20activity" alt="activity graph">
-</p>
-
-<p align="center">
-  <img height="150" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=ankit373&layout=compact&langs_count=8&hide_border=true&theme=transparent&title_color=00ADD8&text_color=8b949e" alt="languages">
-  <img height="150" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=ankit373&theme=github_dark&utcOffset=5.5" alt="productive time">
+  <img width="98%" src="https://raw.githubusercontent.com/ankit373/ankit373/main/github-metrics.svg" alt="isometric commit calendar, languages and commit habits — rendered nightly in this repo's own Actions">
 </p>
 
 | | |
