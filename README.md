@@ -243,7 +243,7 @@ A detour through [algorithms &amp; data structures](https://github.com/ankit373/
 
 <p align="center">
 <!-- quote:start -->
-<i>“Testing shows the presence, not the absence of bugs.”</i><br><sub>— Edsger W. Dijkstra</sub>
+<i>“Controlling complexity is the essence of computer programming.”</i><br><sub>— Brian Kernighan</sub>
 <!-- quote:end -->
 </p>
 
