@@ -18,8 +18,10 @@ jobs:
         run: |
           python3 - <<'PY'
           import json, datetime, re
+          from zoneinfo import ZoneInfo
           quotes = json.load(open('.github/quotes.json'))
-          q = quotes[datetime.date.today().toordinal() % len(quotes)]
+          today = datetime.datetime.now(ZoneInfo('Asia/Kolkata')).date()
+          q = quotes[today.toordinal() % len(quotes)]
           block = f'<i>“{q["text"]}”</i><br><sub>— {q["author"]}</sub>'
           s = open('README.md').read()
           new = re.sub(
