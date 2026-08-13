@@ -243,7 +243,7 @@ A detour through [algorithms &amp; data structures](https://github.com/ankit373/
 
 <p align="center">
 <!-- quote:start -->
-<i>“Premature optimization is the root of all evil.”</i><br><sub>— Donald Knuth</sub>
+<i>“Beware of bugs in the above code; I have only proved it correct, not tried it.”</i><br><sub>— Donald Knuth</sub>
 <!-- quote:end -->
 </p>
 
