@@ -243,7 +243,7 @@ A detour through [algorithms &amp; data structures](https://github.com/ankit373/
 
 <p align="center">
 <!-- quote:start -->
-<i>“Beware of bugs in the above code; I have only proved it correct, not tried it.”</i><br><sub>— Donald Knuth</sub>
+<i>“There are two ways of constructing a software design: one way is to make it so simple that there are obviously no deficiencies, and the other way is to make it so complicated that there are no obvious deficiencies.”</i><br><sub>— C. A. R. Hoare</sub>
 <!-- quote:end -->
 </p>
 
