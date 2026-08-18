@@ -243,7 +243,7 @@ A detour through [algorithms &amp; data structures](https://github.com/ankit373/
 
 <p align="center">
 <!-- quote:start -->
-<i>“It is better to solve the right problem the wrong way than the wrong problem the right way.”</i><br><sub>— Richard Hamming</sub>
+<i>“The most dangerous phrase in the language is: we've always done it this way.”</i><br><sub>— Grace Hopper</sub>
 <!-- quote:end -->
 </p>
 
