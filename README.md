@@ -243,7 +243,7 @@ A detour through [algorithms &amp; data structures](https://github.com/ankit373/
 
 <p align="center">
 <!-- quote:start -->
-<i>“Adding manpower to a late software project makes it later.”</i><br><sub>— Fred Brooks</sub>
+<i>“There is no silver bullet.”</i><br><sub>— Fred Brooks</sub>
 <!-- quote:end -->
 </p>
 
