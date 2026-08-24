@@ -243,7 +243,7 @@ A detour through [algorithms &amp; data structures](https://github.com/ankit373/
 
 <p align="center">
 <!-- quote:start -->
-<i>“All problems in computer science can be solved by another level of indirection — except the problem of too many levels of indirection.”</i><br><sub>— David Wheeler</sub>
+<i>“Be conservative in what you send, be liberal in what you accept.”</i><br><sub>— Jon Postel</sub>
 <!-- quote:end -->
 </p>
 
