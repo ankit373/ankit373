@@ -243,7 +243,7 @@ A detour through [algorithms &amp; data structures](https://github.com/ankit373/
 
 <p align="center">
 <!-- quote:start -->
-<i>“Be conservative in what you send, be liberal in what you accept.”</i><br><sub>— Jon Postel</sub>
+<i>“Organizations which design systems are constrained to produce designs which are copies of the communication structures of these organizations.”</i><br><sub>— Melvin Conway</sub>
 <!-- quote:end -->
 </p>
 
