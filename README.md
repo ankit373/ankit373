@@ -243,7 +243,7 @@ A detour through [algorithms &amp; data structures](https://github.com/ankit373/
 
 <p align="center">
 <!-- quote:start -->
-<i>“Simplicity does not precede complexity, but follows it.”</i><br><sub>— Alan Perlis</sub>
+<i>“Fools ignore complexity. Pragmatists suffer it. Some can avoid it. Geniuses remove it.”</i><br><sub>— Alan Perlis</sub>
 <!-- quote:end -->
 </p>
 
