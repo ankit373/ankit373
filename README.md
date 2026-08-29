@@ -243,7 +243,7 @@ A detour through [algorithms &amp; data structures](https://github.com/ankit373/
 
 <p align="center">
 <!-- quote:start -->
-<i>“Fools ignore complexity. Pragmatists suffer it. Some can avoid it. Geniuses remove it.”</i><br><sub>— Alan Perlis</sub>
+<i>“A language that doesn't affect the way you think about programming is not worth knowing.”</i><br><sub>— Alan Perlis</sub>
 <!-- quote:end -->
 </p>
 
