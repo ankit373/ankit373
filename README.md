@@ -243,7 +243,7 @@ A detour through [algorithms &amp; data structures](https://github.com/ankit373/
 
 <p align="center">
 <!-- quote:start -->
-<i>“A language that doesn't affect the way you think about programming is not worth knowing.”</i><br><sub>— Alan Perlis</sub>
+<i>“It is easier to optimize correct code than to correct optimized code.”</i><br><sub>— Bill Harlan</sub>
 <!-- quote:end -->
 </p>
 
