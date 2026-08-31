@@ -243,7 +243,7 @@ A detour through [algorithms &amp; data structures](https://github.com/ankit373/
 
 <p align="center">
 <!-- quote:start -->
-<i>“It is easier to optimize correct code than to correct optimized code.”</i><br><sub>— Bill Harlan</sub>
+<i>“The cheapest, fastest, and most reliable components are those that aren't there.”</i><br><sub>— Gordon Bell</sub>
 <!-- quote:end -->
 </p>
 
