@@ -243,7 +243,7 @@ A detour through [algorithms &amp; data structures](https://github.com/ankit373/
 
 <p align="center">
 <!-- quote:start -->
-<i>“The cheapest, fastest, and most reliable components are those that aren't there.”</i><br><sub>— Gordon Bell</sub>
+<i>“Programs must be written for people to read, and only incidentally for machines to execute.”</i><br><sub>— Harold Abelson</sub>
 <!-- quote:end -->
 </p>
 
