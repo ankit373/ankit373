@@ -243,7 +243,7 @@ A detour through [algorithms &amp; data structures](https://github.com/ankit373/
 
 <p align="center">
 <!-- quote:start -->
-<i>“Programs must be written for people to read, and only incidentally for machines to execute.”</i><br><sub>— Harold Abelson</sub>
+<i>“The best performance improvement is the transition from the nonworking state to the working state.”</i><br><sub>— John Ousterhout</sub>
 <!-- quote:end -->
 </p>
 
