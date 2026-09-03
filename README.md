@@ -243,7 +243,7 @@ A detour through [algorithms &amp; data structures](https://github.com/ankit373/
 
 <p align="center">
 <!-- quote:start -->
-<i>“The best performance improvement is the transition from the nonworking state to the working state.”</i><br><sub>— John Ousterhout</sub>
+<i>“Make it work, make it right, make it fast.”</i><br><sub>— Kent Beck</sub>
 <!-- quote:end -->
 </p>
 
