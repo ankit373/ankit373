@@ -243,7 +243,7 @@ A detour through [algorithms &amp; data structures](https://github.com/ankit373/
 
 <p align="center">
 <!-- quote:start -->
-<i>“Make it work, make it right, make it fast.”</i><br><sub>— Kent Beck</sub>
+<i>“Data dominates. If you've chosen the right data structures and organized things well, the algorithms will almost always be self-evident.”</i><br><sub>— Rob Pike</sub>
 <!-- quote:end -->
 </p>
 
