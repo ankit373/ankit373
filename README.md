@@ -243,7 +243,7 @@ A detour through [algorithms &amp; data structures](https://github.com/ankit373/
 
 <p align="center">
 <!-- quote:start -->
-<i>“Errors should never pass silently. Unless explicitly silenced.”</i><br><sub>— Tim Peters, The Zen of Python</sub>
+<i>“One of my most productive days was throwing away 1,000 lines of code.”</i><br><sub>— Ken Thompson</sub>
 <!-- quote:end -->
 </p>
 
