@@ -243,7 +243,7 @@ A detour through [algorithms &amp; data structures](https://github.com/ankit373/
 
 <p align="center">
 <!-- quote:start -->
-<i>“One of my most productive days was throwing away 1,000 lines of code.”</i><br><sub>— Ken Thompson</sub>
+<i>“When in doubt, use brute force.”</i><br><sub>— Ken Thompson</sub>
 <!-- quote:end -->
 </p>
 
