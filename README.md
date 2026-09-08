@@ -243,7 +243,7 @@ A detour through [algorithms &amp; data structures](https://github.com/ankit373/
 
 <p align="center">
 <!-- quote:start -->
-<i>“When in doubt, use brute force.”</i><br><sub>— Ken Thompson</sub>
+<i>“The best way to predict the future is to invent it.”</i><br><sub>— Alan Kay</sub>
 <!-- quote:end -->
 </p>
 
