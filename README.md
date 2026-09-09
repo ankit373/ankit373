@@ -243,7 +243,7 @@ A detour through [algorithms &amp; data structures](https://github.com/ankit373/
 
 <p align="center">
 <!-- quote:start -->
-<i>“The best way to predict the future is to invent it.”</i><br><sub>— Alan Kay</sub>
+<i>“Deleted code is debugged code.”</i><br><sub>— Jeff Sickel</sub>
 <!-- quote:end -->
 </p>
 
