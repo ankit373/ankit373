@@ -243,7 +243,7 @@ A detour through [algorithms &amp; data structures](https://github.com/ankit373/
 
 <p align="center">
 <!-- quote:start -->
-<i>“Deleted code is debugged code.”</i><br><sub>— Jeff Sickel</sub>
+<i>“First, solve the problem. Then, write the code.”</i><br><sub>— John Johnson</sub>
 <!-- quote:end -->
 </p>
 
