@@ -243,7 +243,7 @@ A detour through [algorithms &amp; data structures](https://github.com/ankit373/
 
 <p align="center">
 <!-- quote:start -->
-<i>“First, solve the problem. Then, write the code.”</i><br><sub>— John Johnson</sub>
+<i>“Weeks of coding can save you hours of planning.”</i><br><sub>— unknown, painfully</sub>
 <!-- quote:end -->
 </p>
 
