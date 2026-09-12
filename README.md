@@ -243,7 +243,7 @@ A detour through [algorithms &amp; data structures](https://github.com/ankit373/
 
 <p align="center">
 <!-- quote:start -->
-<i>“Weeks of coding can save you hours of planning.”</i><br><sub>— unknown, painfully</sub>
+<i>“Simplicity is prerequisite for reliability.”</i><br><sub>— Edsger W. Dijkstra</sub>
 <!-- quote:end -->
 </p>
 
