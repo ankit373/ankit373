@@ -243,7 +243,7 @@ A detour through [algorithms &amp; data structures](https://github.com/ankit373/
 
 <p align="center">
 <!-- quote:start -->
-<i>“Simplicity is prerequisite for reliability.”</i><br><sub>— Edsger W. Dijkstra</sub>
+<i>“Testing shows the presence, not the absence of bugs.”</i><br><sub>— Edsger W. Dijkstra</sub>
 <!-- quote:end -->
 </p>
 
