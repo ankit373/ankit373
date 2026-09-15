@@ -243,7 +243,7 @@ A detour through [algorithms &amp; data structures](https://github.com/ankit373/
 
 <p align="center">
 <!-- quote:start -->
-<i>“Controlling complexity is the essence of computer programming.”</i><br><sub>— Brian Kernighan</sub>
+<i>“Everyone knows that debugging is twice as hard as writing a program in the first place. So if you're as clever as you can be when you write it, how will you ever debug it?”</i><br><sub>— Brian Kernighan</sub>
 <!-- quote:end -->
 </p>
 
