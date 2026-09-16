@@ -243,7 +243,7 @@ A detour through [algorithms &amp; data structures](https://github.com/ankit373/
 
 <p align="center">
 <!-- quote:start -->
-<i>“Everyone knows that debugging is twice as hard as writing a program in the first place. So if you're as clever as you can be when you write it, how will you ever debug it?”</i><br><sub>— Brian Kernighan</sub>
+<i>“A distributed system is one in which the failure of a computer you didn't even know existed can render your own computer unusable.”</i><br><sub>— Leslie Lamport</sub>
 <!-- quote:end -->
 </p>
 
