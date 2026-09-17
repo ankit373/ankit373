@@ -243,7 +243,7 @@ A detour through [algorithms &amp; data structures](https://github.com/ankit373/
 
 <p align="center">
 <!-- quote:start -->
-<i>“A distributed system is one in which the failure of a computer you didn't even know existed can render your own computer unusable.”</i><br><sub>— Leslie Lamport</sub>
+<i>“Premature optimization is the root of all evil.”</i><br><sub>— Donald Knuth</sub>
 <!-- quote:end -->
 </p>
 
