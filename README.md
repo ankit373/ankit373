@@ -243,7 +243,7 @@ A detour through [algorithms &amp; data structures](https://github.com/ankit373/
 
 <p align="center">
 <!-- quote:start -->
-<i>“There are two ways of constructing a software design: one way is to make it so simple that there are obviously no deficiencies, and the other way is to make it so complicated that there are no obvious deficiencies.”</i><br><sub>— C. A. R. Hoare</sub>
+<i>“A complex system that works is invariably found to have evolved from a simple system that worked.”</i><br><sub>— John Gall</sub>
 <!-- quote:end -->
 </p>
 
