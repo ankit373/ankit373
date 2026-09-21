@@ -243,7 +243,7 @@ A detour through [algorithms &amp; data structures](https://github.com/ankit373/
 
 <p align="center">
 <!-- quote:start -->
-<i>“A complex system that works is invariably found to have evolved from a simple system that worked.”</i><br><sub>— John Gall</sub>
+<i>“The purpose of computing is insight, not numbers.”</i><br><sub>— Richard Hamming</sub>
 <!-- quote:end -->
 </p>
 
