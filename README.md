@@ -243,7 +243,7 @@ A detour through [algorithms &amp; data structures](https://github.com/ankit373/
 
 <p align="center">
 <!-- quote:start -->
-<i>“The purpose of computing is insight, not numbers.”</i><br><sub>— Richard Hamming</sub>
+<i>“It is better to solve the right problem the wrong way than the wrong problem the right way.”</i><br><sub>— Richard Hamming</sub>
 <!-- quote:end -->
 </p>
 
