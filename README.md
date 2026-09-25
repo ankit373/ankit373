@@ -243,7 +243,7 @@ A detour through [algorithms &amp; data structures](https://github.com/ankit373/
 
 <p align="center">
 <!-- quote:start -->
-<i>“A ship in port is safe, but that is not what ships are built for.”</i><br><sub>— Grace Hopper</sub>
+<i>“Talk is cheap. Show me the code.”</i><br><sub>— Linus Torvalds</sub>
 <!-- quote:end -->
 </p>
 
