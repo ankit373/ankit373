@@ -243,7 +243,7 @@ A detour through [algorithms &amp; data structures](https://github.com/ankit373/
 
 <p align="center">
 <!-- quote:start -->
-<i>“Talk is cheap. Show me the code.”</i><br><sub>— Linus Torvalds</sub>
+<i>“Adding manpower to a late software project makes it later.”</i><br><sub>— Fred Brooks</sub>
 <!-- quote:end -->
 </p>
 
