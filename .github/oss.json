@@ -1,0 +1,7 @@
+{
+  "user": "ankit373",
+  "exclude_owners": ["ankit373", "tradomate-tech", "Programming373", "thoughtbots", "Hash-Credit", "anvitra-ai", "apphireai"],
+  "exclude_repos": ["Aniket965/Hello-world", "my-first-pr/hacktoberfest-2018"],
+  "license_overrides": {"Tencent/WeKnora": "MIT"},
+  "max_prs_per_repo": 4
+}
