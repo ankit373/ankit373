@@ -1,0 +1,37 @@
+name: refresh open-source tracker
+
+on:
+  schedule:
+    - cron: "2 19 * * *" # 00:32 IST
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [".github/scripts/oss_tracker.py", ".github/workflows/oss-tracker.yml"]
+
+concurrency:
+  group: readme-write
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Rebuild oss/tracker.csv and oss/README.md
+        run: python3 .github/scripts/oss_tracker.py --user "${{ github.repository_owner }}"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add oss/
+          git diff --cached --quiet && exit 0
+          git commit -m "open-source tracker: $(TZ=Asia/Kolkata date +%F)"
+          git pull --rebase origin main
+          git push
