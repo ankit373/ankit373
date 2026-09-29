@@ -181,6 +181,20 @@ If it runs in my production, I read its source — and when it breaks, the fix g
 | [![vllm](https://img.shields.io/badge/vllm--project/semantic--router-30A2FF?style=flat-square)](https://github.com/vllm-project/semantic-router) | honouring `enabled` on the PII and domain classifiers, API-key forwarding, config version gating |
 | [![arc](https://img.shields.io/badge/actions/actions--runner--controller-2088FF?style=flat-square&logo=githubactions&logoColor=white)](https://github.com/actions/actions-runner-controller) | duplicate `workflow_job` completion events, webhook capacity double-counting |
 
+#### merged upstream
+
+<!-- oss:start -->
+**12** merged PRs across **5** open-source projects I don't own · <sub>refreshed daily by an Action, last 2026-09-29</sub>
+
+| project | license | merged | latest |
+|:--|:--|--:|:--|
+| [vllm-project/semantic-router](https://github.com/vllm-project/semantic-router)<br><sub>★ 5,962</sub> | `Apache-2.0` | 5 | [\[Feature\] Configure streamed_body through the SemanticRouter CRD](https://github.com/vllm-project/semantic-router/pull/4203)<br>[feat(training): add query-outcome snapshots and query-level splitting](https://github.com/vllm-project/semantic-router/pull/3999)<br>[fix(cli): forward the api keys a config actually names](https://github.com/vllm-project/semantic-router/pull/2784)<br>[config: honour enabled on the domain and PII classifiers](https://github.com/vllm-project/semantic-router/pull/2769)<br><sub>+1 more</sub> |
+| [Tencent/WeKnora](https://github.com/Tencent/WeKnora)<br><sub>★ 30,914</sub> | `MIT` | 2 | [fix(knowledge): stop synthesizing never-run stages as failed](https://github.com/Tencent/WeKnora/pull/3460)<br>[test(im): close the lifecycle test database and keep its name unique](https://github.com/Tencent/WeKnora/pull/3433) |
+| [vllm-project/aibrix](https://github.com/vllm-project/aibrix)<br><sub>★ 5,116</sub> | `Apache-2.0` | 2 | [\[Bug\] Chain each block of a multi-block BlockStored event from its predecessor](https://github.com/vllm-project/aibrix/pull/2820)<br>[\[Bug\] Purge a pod's prefix cache when the engine sleep-state metric shows it went to sleep](https://github.com/vllm-project/aibrix/pull/2735) |
+| [element-hq/synapse](https://github.com/element-hq/synapse)<br><sub>★ 4,656</sub> | `AGPL-3.0` | 2 | [Fix 500 error when user-interactive auth requests send a null or non-object `auth`](https://github.com/element-hq/synapse/pull/20274)<br>[fix: reject user creation via the admin API when delegating to MAS](https://github.com/element-hq/synapse/pull/20241) |
+| [grafana/mcp-grafana](https://github.com/grafana/mcp-grafana)<br><sub>★ 3,506</sub> | `Apache-2.0` | 1 | [fix(auth): ignore unsubstituted MCPB user_config placeholders in env](https://github.com/grafana/mcp-grafana/pull/1249) |
+<!-- oss:end -->
+
 </details>
 
 ---
