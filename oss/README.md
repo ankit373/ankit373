@@ -1,6 +1,6 @@
 # Open-source contributions
 
-Refreshed daily by `.github/workflows/oss-tracker.yml`, last run 2026-09-29 18:46 UTC. The data is in [tracker.csv](tracker.csv); this page is generated from it. Only the `notes` column of the CSV is edited by hand.
+Refreshed daily by `.github/workflows/oss-tracker.yml`, last run 2026-09-29 22:52 UTC. The data is in [tracker.csv](tracker.csv); this page is generated from it. Only the `notes` column of the CSV is edited by hand.
 
 **14 merged, 25 open, 7 closed without merging**, across 14 projects. Pull requests to repositories I own or that belong to my employers are not listed.
 
@@ -48,17 +48,17 @@ Refreshed daily by `.github/workflows/oss-tracker.yml`, last run 2026-09-29 18:4
 | [kubernetes-sigs/karpenter#3308](https://github.com/kubernetes-sigs/karpenter/pull/3308) fix: attribute failed disruption validations to a NodePool and policy | first review | CI not run or pending | pending | 21 |  |
 | [kubernetes/autoscaler#10269](https://github.com/kubernetes/autoscaler/pull/10269) fix: guard optional AcceleratorCount when building the AWS template node | /ok-to-test | needs /ok-to-test from a member; CI not run or pending | pending | 19 |  |
 | [ollama/ollama#17548](https://github.com/ollama/ollama/pull/17548) server: return the upstream status from /api/embeddings | first review | CI not run or pending | none | 56 |  |
-| [ollama/ollama#17542](https://github.com/ollama/ollama/pull/17542) llm: warn when a model is loaded entirely on CPU | reviewer follow-up | CI not run or pending | none | 56 |  |
+| [ollama/ollama#17542](https://github.com/ollama/ollama/pull/17542) llm: warn when a model is loaded entirely on CPU | reviewer follow-up | CI not run or pending | none | 57 |  |
 | [shridarpatil/whatomate#578](https://github.com/shridarpatil/whatomate/pull/578) fix(contacts): use the bs_uid column when storing and looking up BSUID | first review | behind base | pass | 4 |  |
 | [shridarpatil/whatomate#572](https://github.com/shridarpatil/whatomate/pull/572) fix(queue): recreate the consumer group when Redis loses it | first review | behind base; CI not run or pending | none | 6 |  |
-| [vllm-project/semantic-router#4351](https://github.com/vllm-project/semantic-router/pull/4351) [Feature] Load KMeans v2 artifacts natively and pick the best eligible candidate | author (draft) |  | pass | 0 | Slice 2 of 3 for #3665 (native loader). Draft, stacked on #4349. |
-| [vllm-project/semantic-router#4349](https://github.com/vllm-project/semantic-router/pull/4349) [Feature] Fit KMeans selectors on unique queries with a v2 artifact contract | first review | CI not run or pending | pending | 0 | Slice 1 of 3 for #3665 (Python trainer). Stacked on #4022. |
-| [vllm-project/semantic-router#4324](https://github.com/vllm-project/semantic-router/pull/4324) [Bug] Budget context compression in the engine's own token unit | merge (approved) | merge-queue rule not yet satisfied | pending | 0 |  |
+| [vllm-project/semantic-router#4351](https://github.com/vllm-project/semantic-router/pull/4351) [Feature] Load KMeans v2 artifacts natively and pick the best eligible candidate | author (draft) | behind base | pass | 0 | Slice 2 of 3 for #3665 (native loader). Draft, stacked on #4349. |
+| [vllm-project/semantic-router#4349](https://github.com/vllm-project/semantic-router/pull/4349) [Feature] Fit KMeans selectors on unique queries with a v2 artifact contract | first review | behind base | pass | 0 | Slice 1 of 3 for #3665 (Python trainer). Stacked on #4022. |
+| [vllm-project/semantic-router#4324](https://github.com/vllm-project/semantic-router/pull/4324) [Bug] Budget context compression in the engine's own token unit | merge (approved) | behind base; CI not run or pending | pending | 0 |  |
 | [vllm-project/semantic-router#4323](https://github.com/vllm-project/semantic-router/pull/4323) [Bug] Derive Anthropic content extension checks from the direction-aware variant allow-list | re-review (fix pushed) | behind base | pass | 0 | Related to #4319. Handling of toolset_name on responses is being discussed in review. |
 | [vllm-project/semantic-router#4299](https://github.com/vllm-project/semantic-router/pull/4299) [Feature] Add extraContainers to the semantic-router Helm chart | issue acceptance | linked issue not accepted; behind base; CI failing | fail | 1 | Blocked until the linked issue #3794 is accepted. |
-| [vllm-project/semantic-router#4298](https://github.com/vllm-project/semantic-router/pull/4298) [Bug] Reject bodyless inference requests at the header stage | re-approval (Bevisy, wilsonwu dismissed) | behind base; CI not run or pending | pending | 0 | A test-only commit fixed a conflict with #4266 and reset the approvals. |
-| [vllm-project/semantic-router#4022](https://github.com/vllm-project/semantic-router/pull/4022) [Feature] Define one versioned selector objective | re-review (fix pushed) | CI not run or pending | pending | 2 | Foundation for the KMeans work in #4349 and #4351. |
-| [vllm-project/semantic-router#2767](https://github.com/vllm-project/semantic-router/pull/2767) [Config] Gate canonical input on a supported version | re-review (fix pushed) | CI not run or pending | pending | 18 |  |
+| [vllm-project/semantic-router#4298](https://github.com/vllm-project/semantic-router/pull/4298) [Bug] Reject bodyless inference requests at the header stage | re-approval (Bevisy, wilsonwu dismissed) | behind base | pass | 0 | A test-only commit fixed a conflict with #4266 and reset the approvals. |
+| [vllm-project/semantic-router#4022](https://github.com/vllm-project/semantic-router/pull/4022) [Feature] Define one versioned selector objective | re-review (fix pushed) | behind base | pass | 2 | Foundation for the KMeans work in #4349 and #4351. |
+| [vllm-project/semantic-router#2767](https://github.com/vllm-project/semantic-router/pull/2767) [Config] Gate canonical input on a supported version | re-review (fix pushed) | behind base | pass | 18 |  |
 
 ## Merged (14)
 
