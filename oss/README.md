@@ -1,52 +1,47 @@
 # Open-source contributions
 
-Refreshed daily by `.github/workflows/oss-tracker.yml`, last run 2026-11-07 22:31 UTC. The data is in [tracker.csv](tracker.csv); this page is generated from it. Only the `notes` column of the CSV is edited by hand.
+Refreshed daily by `.github/workflows/oss-tracker.yml`, last run 2026-11-08 22:41 UTC. The data is in [tracker.csv](tracker.csv); this page is generated from it. Only the `notes` column of the CSV is edited by hand.
 
-**28 merged, 31 open, 10 closed without merging**, across 17 projects. Pull requests to repositories I own or that belong to my employers are not listed.
+**28 merged, 30 open, 11 closed without merging**, across 17 projects. Pull requests to repositories I own or that belong to my employers are not listed.
 
 ## Changed in the last 7 days
 
-- 2026-10-31 [vllm-project/aibrix#2885](https://github.com/vllm-project/aibrix/pull/2885) [Bug] Drop pool policy activity records of pods that stopped reporting: review decision: none → review_required
-- 2026-10-31 [vllm-project/aibrix#2884](https://github.com/vllm-project/aibrix/pull/2884) [Bug] Scale KPA on the total load, not the per-pod mean: review decision: none → review_required
-- 2026-10-31 [vllm-project/aibrix#2820](https://github.com/vllm-project/aibrix/pull/2820) [Bug] Chain each block of a multi-block BlockStored event from its predecessor: review decision: none → review_required
-- 2026-10-31 [vllm-project/aibrix#2735](https://github.com/vllm-project/aibrix/pull/2735) [Bug] Purge a pod's prefix cache when the engine sleep-state metric shows it went to sleep: review decision: none → review_required
-- 2026-10-31 [vllm-project/semantic-router#4022](https://github.com/vllm-project/semantic-router/pull/4022) [Feature] Define one versioned selector objective: state: open → merged; waiting on: merge (approved) → done
+- 2026-11-08 [vllm-project/semantic-router#4349](https://github.com/vllm-project/semantic-router/pull/4349) [Feature] Fit KMeans selectors on unique queries with a v2 artifact contract: state: open → closed; waiting on: merge (approved) → done
 
-## Open (31)
+## Open (30)
 
 | PR | Waiting on | Blockers | CI | Days since a reply | Notes |
 |---|---|---|---|---|---|
-| [BerriAI/litellm#44084](https://github.com/BerriAI/litellm/pull/44084) perf(router): read cooldown state only for the request's candidate deployments | reviewer follow-up |  | pass | 36 |  |
-| [BerriAI/litellm#40712](https://github.com/BerriAI/litellm/pull/40712) fix: record vertex_location on the generate_content path so cost uses the configured region | CI fix | CI failing | fail | 37 | The red check comes from Google changing an API spec. The fix is BerriAI/litellm#43729. |
-| [actions/actions-runner-controller#4594](https://github.com/actions/actions-runner-controller/pull/4594) fix: ignore duplicate workflow_job completed events for a job already scaled down | first review | CI not run or pending | none | 94 | Brought up to date with master and tested locally. CI needs a maintainer's approval to run. |
-| [actions/actions-runner-controller#4593](https://github.com/actions/actions-runner-controller/pull/4593) fix: don't double-count webhook capacity reservations in PercentageRunnersBusy | first review | CI not run or pending | none | 95 | Brought up to date with master and tested locally. CI needs a maintainer's approval to run. |
-| [element-hq/dendrite#3715](https://github.com/element-hq/dendrite/pull/3715) fix(docker): pass the TLS flags the compose file's own README requires | reviewer follow-up |  | pass | 50 |  |
-| [element-hq/synapse#20282](https://github.com/element-hq/synapse/pull/20282) Fix federated media downloads failing when a multipart response is split across chunks | first review |  | pass | 40 | Also fixes a regression on the oldest supported python-multipart. |
-| [grafana/loki#24781](https://github.com/grafana/loki/pull/24781) fix: Apply the configured log level to AWS SDK log output | first review |  | pass | 40 |  |
-| [grafana/loki#24421](https://github.com/grafana/loki/pull/24421) fix: Anchor label filter regexes to the whole label value | reviewer follow-up | conflicts | pass | 50 |  |
-| [grafana/loki#23784](https://github.com/grafana/loki/pull/23784) fix: Give each tenant its own request in multi-tenant queries | first review |  | pass | 93 |  |
-| [gravitational/teleport#69818](https://github.com/gravitational/teleport/pull/69818) Web: Load every role in the user roles dropdown | CI fix | CI failing | fail | 37 |  |
-| [gravitational/teleport#69817](https://github.com/gravitational/teleport/pull/69817) Web: Do not repeat a label filter that is already applied | CI fix | CI failing | fail | 37 |  |
-| [helm/helm#32721](https://github.com/helm/helm/pull/32721) fix(list): honor AllNamespaces in action.List without mutating the config | first review |  | pass | 34 |  |
-| [helm/helm#32720](https://github.com/helm/helm/pull/32720) fix(schema): resolve relative $ref in values.schema.json from the chart's files | first review |  | pass | 34 |  |
-| [helm/helm#32719](https://github.com/helm/helm/pull/32719) fix(plugin): stop the git fsmonitor daemon before copying a cloned plugin | first review |  | pass | 34 |  |
-| [helm/helm-www#2272](https://github.com/helm/helm-www/pull/2272) docs(topics): describe relative $ref in values.schema.json | first review |  | pass | 34 |  |
-| [kubernetes-sigs/karpenter#3308](https://github.com/kubernetes-sigs/karpenter/pull/3308) fix: attribute failed disruption validations to a NodePool and policy | first review | conflicts; CI not run or pending | pending | 60 |  |
-| [kubernetes/autoscaler#10269](https://github.com/kubernetes/autoscaler/pull/10269) fix: guard optional AcceleratorCount when building the AWS template node | reviewer follow-up | CI not run or pending | pending | 30 |  |
-| [ollama/ollama#17548](https://github.com/ollama/ollama/pull/17548) server: return the upstream status from /api/embeddings | first review | CI not run or pending | none | 95 |  |
-| [ollama/ollama#17542](https://github.com/ollama/ollama/pull/17542) llm: warn when a model is loaded entirely on CPU | reviewer follow-up | CI not run or pending | none | 96 |  |
-| [shridarpatil/whatomate#578](https://github.com/shridarpatil/whatomate/pull/578) fix(contacts): use the bs_uid column when storing and looking up BSUID | CI fix | behind base; CI failing | fail | 43 |  |
-| [shridarpatil/whatomate#572](https://github.com/shridarpatil/whatomate/pull/572) fix(queue): recreate the consumer group when Redis loses it | first review | behind base | pass | 45 |  |
-| [vllm-project/semantic-router#5305](https://github.com/vllm-project/semantic-router/pull/5305) [Feature] Pin selector features in a content-addressed snapshot and stop stale embedding-cache reuse | CI fix | conflicts; CI failing | fail | 18 |  |
-| [vllm-project/semantic-router#5281](https://github.com/vllm-project/semantic-router/pull/5281) [Feature] Skip shadow dispatch when the shadow model lacks a requested modality | first review |  | pass | 19 |  |
-| [vllm-project/semantic-router#4935](https://github.com/vllm-project/semantic-router/pull/4935) [Feature] Add the AMD AI PC CPU profile and recipe | first review | conflicts | pass | 26 |  |
-| [vllm-project/semantic-router#4483](https://github.com/vllm-project/semantic-router/pull/4483) [Feature] Report KMeans held-out results against the shared baselines | author (draft) | conflicts | pass | 35 |  |
-| [vllm-project/semantic-router#4452](https://github.com/vllm-project/semantic-router/pull/4452) [Feature] Evaluate selectors on the held-out split against baselines and the oracle | author (draft) | conflicts | pass | 36 |  |
-| [vllm-project/semantic-router#4351](https://github.com/vllm-project/semantic-router/pull/4351) [Feature] Load KMeans v2 artifacts natively and pick the best eligible candidate | author (draft) | conflicts | pass | 39 | Slice 2 of 3 for #3665 (native loader). Draft, stacked on #4349. |
-| [vllm-project/semantic-router#4349](https://github.com/vllm-project/semantic-router/pull/4349) [Feature] Fit KMeans selectors on unique queries with a v2 artifact contract | merge (approved) | conflicts; CI not run or pending | pending | 1 | Slice 1 of 3 for #3665 (Python trainer). Stacked on #4022. |
-| [vllm-project/semantic-router#4323](https://github.com/vllm-project/semantic-router/pull/4323) [Bug] Derive Anthropic content extension checks from the direction-aware variant allow-list | re-review (fix pushed) |  | pass | 23 | Related to #4319. Handling of toolset_name on responses is being discussed in review. |
-| [vllm-project/semantic-router#4299](https://github.com/vllm-project/semantic-router/pull/4299) [Feature] Add extraContainers to the semantic-router Helm chart | issue acceptance | linked issue not accepted; conflicts; CI failing | fail | 4 | Blocked until the linked issue #3794 is accepted. |
-| [vllm-project/semantic-router#2767](https://github.com/vllm-project/semantic-router/pull/2767) [Config] Gate canonical input on a supported version | re-review (fix pushed) | conflicts; CI not run or pending | pending | 14 |  |
+| [BerriAI/litellm#44084](https://github.com/BerriAI/litellm/pull/44084) perf(router): read cooldown state only for the request's candidate deployments | reviewer follow-up |  | pass | 37 |  |
+| [BerriAI/litellm#40712](https://github.com/BerriAI/litellm/pull/40712) fix: record vertex_location on the generate_content path so cost uses the configured region | CI fix | CI failing | fail | 38 | The red check comes from Google changing an API spec. The fix is BerriAI/litellm#43729. |
+| [actions/actions-runner-controller#4594](https://github.com/actions/actions-runner-controller/pull/4594) fix: ignore duplicate workflow_job completed events for a job already scaled down | first review | CI not run or pending | none | 95 | Brought up to date with master and tested locally. CI needs a maintainer's approval to run. |
+| [actions/actions-runner-controller#4593](https://github.com/actions/actions-runner-controller/pull/4593) fix: don't double-count webhook capacity reservations in PercentageRunnersBusy | first review | CI not run or pending | none | 96 | Brought up to date with master and tested locally. CI needs a maintainer's approval to run. |
+| [element-hq/dendrite#3715](https://github.com/element-hq/dendrite/pull/3715) fix(docker): pass the TLS flags the compose file's own README requires | reviewer follow-up |  | pass | 51 |  |
+| [element-hq/synapse#20282](https://github.com/element-hq/synapse/pull/20282) Fix federated media downloads failing when a multipart response is split across chunks | first review |  | pass | 41 | Also fixes a regression on the oldest supported python-multipart. |
+| [grafana/loki#24781](https://github.com/grafana/loki/pull/24781) fix: Apply the configured log level to AWS SDK log output | first review |  | pass | 41 |  |
+| [grafana/loki#24421](https://github.com/grafana/loki/pull/24421) fix: Anchor label filter regexes to the whole label value | reviewer follow-up | conflicts | pass | 51 |  |
+| [grafana/loki#23784](https://github.com/grafana/loki/pull/23784) fix: Give each tenant its own request in multi-tenant queries | first review |  | pass | 94 |  |
+| [gravitational/teleport#69818](https://github.com/gravitational/teleport/pull/69818) Web: Load every role in the user roles dropdown | CI fix | CI failing | fail | 38 |  |
+| [gravitational/teleport#69817](https://github.com/gravitational/teleport/pull/69817) Web: Do not repeat a label filter that is already applied | CI fix | CI failing | fail | 38 |  |
+| [helm/helm#32721](https://github.com/helm/helm/pull/32721) fix(list): honor AllNamespaces in action.List without mutating the config | first review |  | pass | 35 |  |
+| [helm/helm#32720](https://github.com/helm/helm/pull/32720) fix(schema): resolve relative $ref in values.schema.json from the chart's files | first review |  | pass | 35 |  |
+| [helm/helm#32719](https://github.com/helm/helm/pull/32719) fix(plugin): stop the git fsmonitor daemon before copying a cloned plugin | first review |  | pass | 35 |  |
+| [helm/helm-www#2272](https://github.com/helm/helm-www/pull/2272) docs(topics): describe relative $ref in values.schema.json | first review |  | pass | 35 |  |
+| [kubernetes-sigs/karpenter#3308](https://github.com/kubernetes-sigs/karpenter/pull/3308) fix: attribute failed disruption validations to a NodePool and policy | first review | conflicts; CI not run or pending | pending | 61 |  |
+| [kubernetes/autoscaler#10269](https://github.com/kubernetes/autoscaler/pull/10269) fix: guard optional AcceleratorCount when building the AWS template node | reviewer follow-up | CI not run or pending | pending | 31 |  |
+| [ollama/ollama#17548](https://github.com/ollama/ollama/pull/17548) server: return the upstream status from /api/embeddings | first review | CI not run or pending | none | 96 |  |
+| [ollama/ollama#17542](https://github.com/ollama/ollama/pull/17542) llm: warn when a model is loaded entirely on CPU | reviewer follow-up | CI not run or pending | none | 97 |  |
+| [shridarpatil/whatomate#578](https://github.com/shridarpatil/whatomate/pull/578) fix(contacts): use the bs_uid column when storing and looking up BSUID | CI fix | behind base; CI failing | fail | 44 |  |
+| [shridarpatil/whatomate#572](https://github.com/shridarpatil/whatomate/pull/572) fix(queue): recreate the consumer group when Redis loses it | first review | behind base | pass | 46 |  |
+| [vllm-project/semantic-router#5305](https://github.com/vllm-project/semantic-router/pull/5305) [Feature] Pin selector features in a content-addressed snapshot and stop stale embedding-cache reuse | CI fix | conflicts; CI failing | fail | 19 |  |
+| [vllm-project/semantic-router#5281](https://github.com/vllm-project/semantic-router/pull/5281) [Feature] Skip shadow dispatch when the shadow model lacks a requested modality | first review |  | pass | 20 |  |
+| [vllm-project/semantic-router#4935](https://github.com/vllm-project/semantic-router/pull/4935) [Feature] Add the AMD AI PC CPU profile and recipe | first review | conflicts | pass | 27 |  |
+| [vllm-project/semantic-router#4483](https://github.com/vllm-project/semantic-router/pull/4483) [Feature] Report KMeans held-out results against the shared baselines | author (draft) | conflicts | pass | 36 |  |
+| [vllm-project/semantic-router#4452](https://github.com/vllm-project/semantic-router/pull/4452) [Feature] Evaluate selectors on the held-out split against baselines and the oracle | author (draft) | conflicts | pass | 37 |  |
+| [vllm-project/semantic-router#4351](https://github.com/vllm-project/semantic-router/pull/4351) [Feature] Load KMeans v2 artifacts natively and pick the best eligible candidate | author (draft) | conflicts | pass | 40 | Slice 2 of 3 for #3665 (native loader). Draft, stacked on #4349. |
+| [vllm-project/semantic-router#4323](https://github.com/vllm-project/semantic-router/pull/4323) [Bug] Derive Anthropic content extension checks from the direction-aware variant allow-list | re-review (fix pushed) |  | pass | 24 | Related to #4319. Handling of toolset_name on responses is being discussed in review. |
+| [vllm-project/semantic-router#4299](https://github.com/vllm-project/semantic-router/pull/4299) [Feature] Add extraContainers to the semantic-router Helm chart | issue acceptance | linked issue not accepted; conflicts; CI failing | fail | 5 | Blocked until the linked issue #3794 is accepted. |
+| [vllm-project/semantic-router#2767](https://github.com/vllm-project/semantic-router/pull/2767) [Config] Gate canonical input on a supported version | re-review (fix pushed) | conflicts; CI not run or pending | pending | 15 |  |
 
 ## Merged (28)
 
@@ -81,7 +76,7 @@ Refreshed daily by `.github/workflows/oss-tracker.yml`, last run 2026-11-07 22:3
 | [vllm-project/semantic-router#2776](https://github.com/vllm-project/semantic-router/pull/2776) test(config): unfence the apiserver doc needles so a table is not a failure | 2026-08-05 | mergify |
 | [vllm-project/semantic-router#2769](https://github.com/vllm-project/semantic-router/pull/2769) config: honour enabled on the domain and PII classifiers | 2026-08-05 | mergify |
 
-## Closed without merging (10)
+## Closed without merging (11)
 
 | PR | Notes |
 |---|---|
@@ -91,6 +86,7 @@ Refreshed daily by `.github/workflows/oss-tracker.yml`, last run 2026-11-07 22:3
 | [The-PR-Agent/pr-agent#3501](https://github.com/The-PR-Agent/pr-agent/pull/3501) feat(litellm): allow declaring adaptive-thinking models by id |  |
 | [ollama/ollama#17543](https://github.com/ollama/ollama/pull/17543) server: warn when embedding input is truncated |  |
 | [shridarpatil/whatomate#591](https://github.com/shridarpatil/whatomate/pull/591) feat(deploy): add a Helm chart |  |
+| [vllm-project/semantic-router#4349](https://github.com/vllm-project/semantic-router/pull/4349) [Feature] Fit KMeans selectors on unique queries with a v2 artifact contract | Slice 1 of 3 for #3665 (Python trainer). Stacked on #4022. |
 | [vllm-project/semantic-router#3847](https://github.com/vllm-project/semantic-router/pull/3847) [Bug] Run static global validators on Kubernetes startup, not just after CRD merge |  |
 | [vllm-project/semantic-router#3814](https://github.com/vllm-project/semantic-router/pull/3814) [Bug] Let the config write API patch the ConfigMap directly on Kubernetes | Absorbed by a maintainer's PR (#4125). |
 | [vllm-project/semantic-router#3632](https://github.com/vllm-project/semantic-router/pull/3632) [Bug] Update the catalog inventory assertion to the 20 added evaluations |  |
