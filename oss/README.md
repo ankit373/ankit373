@@ -1,12 +1,14 @@
 # Open-source contributions
 
-Refreshed daily by `.github/workflows/oss-tracker.yml`, last run 2026-11-23 00:03 UTC. The data is in [tracker.csv](tracker.csv); this page is generated from it. Only the `notes` column of the CSV is edited by hand.
+Refreshed daily by `.github/workflows/oss-tracker.yml`, last run 2026-11-24 04:13 UTC. The data is in [tracker.csv](tracker.csv); this page is generated from it. Only the `notes` column of the CSV is edited by hand.
 
-**56 merged, 38 open, 18 closed without merging**, across 26 projects. Pull requests to repositories I own or that belong to my employers are not listed.
+**59 merged, 37 open, 18 closed without merging**, across 26 projects. Pull requests to repositories I own or that belong to my employers are not listed.
 
 ## Changed in the last 7 days
 
-- 2026-11-23 [grafana/mcp-grafana#1691](https://github.com/grafana/mcp-grafana/pull/1691) feat(hints): name the cause of empty Prometheus and Loki results: new PR
+- 2026-11-24 [grafana/mcp-grafana#1700](https://github.com/grafana/mcp-grafana/pull/1700) fix(hints): treat duration-expression offsets as shifted: new PR
+- 2026-11-24 [grafana/mcp-grafana#1699](https://github.com/grafana/mcp-grafana/pull/1699) feat(auth): read the server auth token from a configurable header: new PR
+- 2026-11-24 [grafana/mcp-grafana#1691](https://github.com/grafana/mcp-grafana/pull/1691) feat(hints): name the cause of empty Prometheus and Loki results: state: open → merged; waiting on: reviewer follow-up → done; review decision: review_required → approved
 - 2026-11-23 [grafana/mcp-grafana#1690](https://github.com/grafana/mcp-grafana/pull/1690) feat: add per-user mode and a per-call identity log: new PR
 - 2026-11-21 [grafana/mcp-grafana#1572](https://github.com/grafana/mcp-grafana/pull/1572) feat(loki): optional format=loki for loki's native query_range shape: state: open → merged; waiting on: merge (approved) → done
 - 2026-11-20 [BerriAI/litellm#44084](https://github.com/BerriAI/litellm/pull/44084) perf(router): read cooldown state only for the request's candidate deployments: state: open → closed; waiting on: reviewer follow-up → done
@@ -17,53 +19,55 @@ Refreshed daily by `.github/workflows/oss-tracker.yml`, last run 2026-11-23 00:0
 - 2026-11-18 [grafana/mcp-grafana#1609](https://github.com/grafana/mcp-grafana/pull/1609) fix: don't put the grafana client in search and team error text: new PR
 - 2026-11-18 [vllm-project/semantic-router#3632](https://github.com/vllm-project/semantic-router/pull/3632) [Bug] Update the catalog inventory assertion to the 20 added evaluations: review decision: approved → review_required
 
-## Open (38)
+## Open (37)
 
 | PR | Waiting on | Blockers | CI | Days since a reply | Notes |
 |---|---|---|---|---|---|
-| [EleutherAI/lm-evaluation-harness#4584](https://github.com/EleutherAI/lm-evaluation-harness/pull/4584) make trust_remote_code=false block task-level remote code | reviewer follow-up |  | pass | 11 |  |
-| [NVIDIA-NeMo/Gym#5923](https://github.com/NVIDIA-NeMo/Gym/pull/5923) fix(judge): read the last verdict label in text_to_sql, labbench2_vlm and math_with_autograder | first review |  | pass | 12 |  |
-| [NVIDIA-NeMo/Gym#5919](https://github.com/NVIDIA-NeMo/Gym/pull/5919) fix(math_with_judge): verify only the final boxed answer | first review |  | pass | 12 |  |
-| [actions/actions-runner-controller#4594](https://github.com/actions/actions-runner-controller/pull/4594) fix: ignore duplicate workflow_job completed events for a job already scaled down | first review | CI not run or pending | none | 109 | Brought up to date with master and tested locally. CI needs a maintainer's approval to run. |
-| [actions/actions-runner-controller#4593](https://github.com/actions/actions-runner-controller/pull/4593) fix: don't double-count webhook capacity reservations in PercentageRunnersBusy | first review | CI not run or pending | none | 110 | Brought up to date with master and tested locally. CI needs a maintainer's approval to run. |
-| [element-hq/dendrite#3715](https://github.com/element-hq/dendrite/pull/3715) fix(docker): pass the TLS flags the compose file's own README requires | reviewer follow-up |  | pass | 65 |  |
-| [grafana/faro-javascript-bundler-plugins#704](https://github.com/grafana/faro-javascript-bundler-plugins/pull/704) fix(faro-cli): upload with fetch instead of curl | reviewer follow-up |  | pass | 4 |  |
-| [grafana/grafana#137669](https://github.com/grafana/grafana/pull/137669) Auth: Let signed-out probes reach /livez and /readyz | first review | CI not run or pending | pending | 10 |  |
-| [grafana/loki#26414](https://github.com/grafana/loki/pull/26414) fix: Match non-ASCII case pairs in case-insensitive contains filters | first review |  | pass | 11 |  |
-| [grafana/loki#26383](https://github.com/grafana/loki/pull/26383) fix(querier): Log cancelled queries at debug instead of error | first review |  | pass | 12 |  |
-| [grafana/loki#24781](https://github.com/grafana/loki/pull/24781) fix: Apply the configured log level to AWS SDK log output | reviewer follow-up |  | pass | 12 |  |
-| [grafana/loki#24421](https://github.com/grafana/loki/pull/24421) fix: Anchor label filter regexes to the whole label value | reviewer follow-up |  | pass | 65 |  |
-| [grafana/loki#23784](https://github.com/grafana/loki/pull/23784) fix: Give each tenant its own request in multi-tenant queries | first review |  | pass | 108 |  |
-| [grafana/mcp-grafana#1691](https://github.com/grafana/mcp-grafana/pull/1691) feat(hints): name the cause of empty Prometheus and Loki results | reviewer follow-up |  | pass | 0 |  |
-| [grafana/mcp-grafana#1690](https://github.com/grafana/mcp-grafana/pull/1690) feat: add per-user mode and a per-call identity log | reviewer follow-up |  | pass | 0 |  |
-| [grafana/pyroscope#6092](https://github.com/grafana/pyroscope/pull/6092) feat(vcs): add .NET source finder | reviewer follow-up |  | pass | 4 |  |
-| [grafana/pyroscope#6077](https://github.com/grafana/pyroscope/pull/6077) feat(helm): validate architecture.storage values | first review |  | pass | 12 |  |
-| [grafana/pyroscope#6076](https://github.com/grafana/pyroscope/pull/6076) fix(vcs): resolve Kotlin files from Java mappings | first review |  | pass | 12 |  |
-| [gravitational/teleport#69818](https://github.com/gravitational/teleport/pull/69818) Web: Load every role in the user roles dropdown | CI fix | CI failing | fail | 52 |  |
-| [gravitational/teleport#69817](https://github.com/gravitational/teleport/pull/69817) Web: Do not repeat a label filter that is already applied | CI fix | CI failing | fail | 52 |  |
-| [helm/helm#32721](https://github.com/helm/helm/pull/32721) fix(list): honor AllNamespaces in action.List without mutating the config | first review |  | pass | 49 |  |
-| [helm/helm#32720](https://github.com/helm/helm/pull/32720) fix(schema): resolve relative $ref in values.schema.json from the chart's files | first review |  | pass | 49 |  |
-| [helm/helm#32719](https://github.com/helm/helm/pull/32719) fix(plugin): stop the git fsmonitor daemon before copying a cloned plugin | first review |  | pass | 49 |  |
-| [helm/helm-www#2272](https://github.com/helm/helm-www/pull/2272) docs(topics): describe relative $ref in values.schema.json | first review |  | pass | 49 |  |
-| [kubernetes-sigs/karpenter#3308](https://github.com/kubernetes-sigs/karpenter/pull/3308) fix: attribute failed disruption validations to a NodePool and policy | first review | CI not run or pending | pending | 75 |  |
-| [kubernetes/autoscaler#10269](https://github.com/kubernetes/autoscaler/pull/10269) fix: guard optional AcceleratorCount when building the AWS template node | reviewer follow-up | CI not run or pending | pending | 45 |  |
-| [ollama/ollama#17548](https://github.com/ollama/ollama/pull/17548) server: return the upstream status from /api/embeddings | first review | CI not run or pending | none | 110 |  |
-| [ollama/ollama#17542](https://github.com/ollama/ollama/pull/17542) llm: warn when a model is loaded entirely on CPU | reviewer follow-up | CI not run or pending | none | 111 |  |
-| [open-thought/reasoning-gym#590](https://github.com/open-thought/reasoning-gym/pull/590) Keep bf difficulty 3 programs inside 8-bit cells | reviewer follow-up | CI not run or pending | none | 7 |  |
-| [open-thought/reasoning-gym#589](https://github.com/open-thought/reasoning-gym/pull/589) Check puzzle24 answers use the item's numbers | first review | CI not run or pending | none | 12 |  |
-| [open-thought/reasoning-gym#588](https://github.com/open-thought/reasoning-gym/pull/588) Fix game_of_life density config and trivial-answer reward | first review | CI not run or pending | none | 12 |  |
-| [pytorch/rl#4718](https://github.com/pytorch/rl/pull/4718) [Test] Fix flaky test_complex_replay_buffer_configuration | reviewer follow-up |  | pass | 11 |  |
-| [shridarpatil/whatomate#578](https://github.com/shridarpatil/whatomate/pull/578) fix(contacts): use the bs_uid column when storing and looking up BSUID | first review | behind base | pass | 58 |  |
-| [shridarpatil/whatomate#572](https://github.com/shridarpatil/whatomate/pull/572) fix(queue): recreate the consumer group when Redis loses it | first review | behind base | pass | 60 |  |
-| [vllm-project/semantic-router#4935](https://github.com/vllm-project/semantic-router/pull/4935) [Feature] Add the AMD AI PC CPU profile and recipe | reviewer follow-up |  | pass | 12 |  |
-| [vllm-project/semantic-router#4323](https://github.com/vllm-project/semantic-router/pull/4323) [Bug] Derive Anthropic content extension checks from the direction-aware variant allow-list | re-review (fix pushed) | conflicts; CI not run or pending | pending | 12 | Related to #4319. Handling of toolset_name on responses is being discussed in review. |
-| [vllm-project/semantic-router#4299](https://github.com/vllm-project/semantic-router/pull/4299) [Feature] Add extraContainers to the semantic-router Helm chart | reviewer follow-up | CI not run or pending | pending | 12 | Blocked until the linked issue #3794 is accepted. |
-| [vllm-project/semantic-router#2767](https://github.com/vllm-project/semantic-router/pull/2767) [Config] Gate canonical input on a supported version | re-review (fix pushed) | CI not run or pending | pending | 10 |  |
+| [EleutherAI/lm-evaluation-harness#4584](https://github.com/EleutherAI/lm-evaluation-harness/pull/4584) make trust_remote_code=false block task-level remote code | reviewer follow-up |  | pass | 12 |  |
+| [NVIDIA-NeMo/Gym#5923](https://github.com/NVIDIA-NeMo/Gym/pull/5923) fix(judge): read the last verdict label in text_to_sql, labbench2_vlm and math_with_autograder | first review |  | pass | 13 |  |
+| [NVIDIA-NeMo/Gym#5919](https://github.com/NVIDIA-NeMo/Gym/pull/5919) fix(math_with_judge): verify only the final boxed answer | first review |  | pass | 13 |  |
+| [actions/actions-runner-controller#4594](https://github.com/actions/actions-runner-controller/pull/4594) fix: ignore duplicate workflow_job completed events for a job already scaled down | first review | CI not run or pending | none | 110 | Brought up to date with master and tested locally. CI needs a maintainer's approval to run. |
+| [actions/actions-runner-controller#4593](https://github.com/actions/actions-runner-controller/pull/4593) fix: don't double-count webhook capacity reservations in PercentageRunnersBusy | first review | CI not run or pending | none | 111 | Brought up to date with master and tested locally. CI needs a maintainer's approval to run. |
+| [element-hq/dendrite#3715](https://github.com/element-hq/dendrite/pull/3715) fix(docker): pass the TLS flags the compose file's own README requires | reviewer follow-up |  | pass | 66 |  |
+| [grafana/faro-javascript-bundler-plugins#704](https://github.com/grafana/faro-javascript-bundler-plugins/pull/704) fix(faro-cli): upload with fetch instead of curl | reviewer follow-up |  | pass | 5 |  |
+| [grafana/grafana#137669](https://github.com/grafana/grafana/pull/137669) Auth: Let signed-out probes reach /livez and /readyz | first review | CI not run or pending | pending | 11 |  |
+| [grafana/loki#26414](https://github.com/grafana/loki/pull/26414) fix: Match non-ASCII case pairs in case-insensitive contains filters | first review |  | pass | 12 |  |
+| [grafana/loki#26383](https://github.com/grafana/loki/pull/26383) fix(querier): Log cancelled queries at debug instead of error | first review | conflicts | pass | 13 |  |
+| [grafana/loki#24781](https://github.com/grafana/loki/pull/24781) fix: Apply the configured log level to AWS SDK log output | reviewer follow-up |  | pass | 13 |  |
+| [grafana/loki#24421](https://github.com/grafana/loki/pull/24421) fix: Anchor label filter regexes to the whole label value | reviewer follow-up |  | pass | 66 |  |
+| [grafana/loki#23784](https://github.com/grafana/loki/pull/23784) fix: Give each tenant its own request in multi-tenant queries | first review |  | pass | 109 |  |
+| [grafana/mcp-grafana#1690](https://github.com/grafana/mcp-grafana/pull/1690) feat: add per-user mode and a per-call identity log | reviewer follow-up | conflicts | pass | 0 |  |
+| [grafana/pyroscope#6092](https://github.com/grafana/pyroscope/pull/6092) feat(vcs): add .NET source finder | reviewer follow-up |  | pass | 5 |  |
+| [grafana/pyroscope#6077](https://github.com/grafana/pyroscope/pull/6077) feat(helm): validate architecture.storage values | first review |  | pass | 13 |  |
+| [grafana/pyroscope#6076](https://github.com/grafana/pyroscope/pull/6076) fix(vcs): resolve Kotlin files from Java mappings | first review |  | pass | 13 |  |
+| [gravitational/teleport#69818](https://github.com/gravitational/teleport/pull/69818) Web: Load every role in the user roles dropdown | CI fix | CI failing | fail | 53 |  |
+| [gravitational/teleport#69817](https://github.com/gravitational/teleport/pull/69817) Web: Do not repeat a label filter that is already applied | CI fix | CI failing | fail | 53 |  |
+| [helm/helm#32721](https://github.com/helm/helm/pull/32721) fix(list): honor AllNamespaces in action.List without mutating the config | first review |  | pass | 50 |  |
+| [helm/helm#32720](https://github.com/helm/helm/pull/32720) fix(schema): resolve relative $ref in values.schema.json from the chart's files | first review |  | pass | 50 |  |
+| [helm/helm#32719](https://github.com/helm/helm/pull/32719) fix(plugin): stop the git fsmonitor daemon before copying a cloned plugin | first review |  | pass | 50 |  |
+| [helm/helm-www#2272](https://github.com/helm/helm-www/pull/2272) docs(topics): describe relative $ref in values.schema.json | first review |  | pass | 50 |  |
+| [kubernetes-sigs/karpenter#3308](https://github.com/kubernetes-sigs/karpenter/pull/3308) fix: attribute failed disruption validations to a NodePool and policy | first review | CI not run or pending | pending | 76 |  |
+| [kubernetes/autoscaler#10269](https://github.com/kubernetes/autoscaler/pull/10269) fix: guard optional AcceleratorCount when building the AWS template node | reviewer follow-up | CI not run or pending | pending | 46 |  |
+| [ollama/ollama#17548](https://github.com/ollama/ollama/pull/17548) server: return the upstream status from /api/embeddings | first review | CI not run or pending | none | 111 |  |
+| [ollama/ollama#17542](https://github.com/ollama/ollama/pull/17542) llm: warn when a model is loaded entirely on CPU | reviewer follow-up | CI not run or pending | none | 112 |  |
+| [open-thought/reasoning-gym#590](https://github.com/open-thought/reasoning-gym/pull/590) Keep bf difficulty 3 programs inside 8-bit cells | reviewer follow-up | CI not run or pending | none | 8 |  |
+| [open-thought/reasoning-gym#589](https://github.com/open-thought/reasoning-gym/pull/589) Check puzzle24 answers use the item's numbers | first review | CI not run or pending | none | 13 |  |
+| [open-thought/reasoning-gym#588](https://github.com/open-thought/reasoning-gym/pull/588) Fix game_of_life density config and trivial-answer reward | first review | CI not run or pending | none | 13 |  |
+| [pytorch/rl#4718](https://github.com/pytorch/rl/pull/4718) [Test] Fix flaky test_complex_replay_buffer_configuration | reviewer follow-up |  | pass | 12 |  |
+| [shridarpatil/whatomate#578](https://github.com/shridarpatil/whatomate/pull/578) fix(contacts): use the bs_uid column when storing and looking up BSUID | first review | behind base | pass | 59 |  |
+| [shridarpatil/whatomate#572](https://github.com/shridarpatil/whatomate/pull/572) fix(queue): recreate the consumer group when Redis loses it | first review | behind base | pass | 61 |  |
+| [vllm-project/semantic-router#4935](https://github.com/vllm-project/semantic-router/pull/4935) [Feature] Add the AMD AI PC CPU profile and recipe | reviewer follow-up |  | pass | 13 |  |
+| [vllm-project/semantic-router#4323](https://github.com/vllm-project/semantic-router/pull/4323) [Bug] Derive Anthropic content extension checks from the direction-aware variant allow-list | re-review (fix pushed) | conflicts; CI not run or pending | pending | 13 | Related to #4319. Handling of toolset_name on responses is being discussed in review. |
+| [vllm-project/semantic-router#4299](https://github.com/vllm-project/semantic-router/pull/4299) [Feature] Add extraContainers to the semantic-router Helm chart | reviewer follow-up | CI not run or pending | pending | 13 | Blocked until the linked issue #3794 is accepted. |
+| [vllm-project/semantic-router#2767](https://github.com/vllm-project/semantic-router/pull/2767) [Config] Gate canonical input on a supported version | re-review (fix pushed) | CI not run or pending | pending | 11 |  |
 
-## Merged (56)
+## Merged (59)
 
 | PR | Merged | By |
 |---|---|---|
+| [grafana/mcp-grafana#1700](https://github.com/grafana/mcp-grafana/pull/1700) fix(hints): treat duration-expression offsets as shifted | 2026-11-23 | sd2k |
+| [grafana/mcp-grafana#1699](https://github.com/grafana/mcp-grafana/pull/1699) feat(auth): read the server auth token from a configurable header | 2026-11-23 | sd2k |
+| [grafana/mcp-grafana#1691](https://github.com/grafana/mcp-grafana/pull/1691) feat(hints): name the cause of empty Prometheus and Loki results | 2026-11-23 | sd2k |
 | [grafana/mcp-grafana#1572](https://github.com/grafana/mcp-grafana/pull/1572) feat(loki): optional format=loki for loki's native query_range shape | 2026-11-20 | sd2k |
 | [grafana/faro-web-sdk#2373](https://github.com/grafana/faro-web-sdk/pull/2373) feat(web-sdk): make frustration detection thresholds configurable | 2026-11-16 | eskirk |
 | [grafana/grafana-cloudwatch-datasource#714](https://github.com/grafana/grafana-cloudwatch-datasource/pull/714) fix: bound the OAM monitoring-account lookup before Logs queries | 2026-11-16 | adamyeats |
